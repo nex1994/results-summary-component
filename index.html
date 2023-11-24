@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result-summary-component</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Hanken+Grotesk" rel="stylesheet">
 </head>
 <body>
+    <main>
     <section class=" result">
         <p>Your result</p>
         <div class="wheel">
@@ -22,24 +24,26 @@
             <li>
                 <img src="./images/icon-reaction.svg" alt="reaction-icon">
                 <p>Reaction</p>
-                <p>80/100</p>
+                <p id="summaryScore">80/100</p>
             </li>
             <li>
                 <img src="./images/icon-memory.svg" alt="memory-icon">
                 <p>Memory</p>
-                <p>92/100</p>
+                <p id="summaryScore">92/100</p>
             </li>
             <li>
                 <img src="./images/icon-verbal.svg" alt="verbal-icon">
                 <p>Verbal</p>
-                <p>61/100</p>
+                <p id="summaryScore">61/100</p>
             </li>
             <li>
                 <img src="./images/icon-visual.svg" alt="visual-icon">
                 <p>Visual</p>
-                <p>72/100</p>
+                <p id="summaryScore">72/100</p>
             </li>
         </ul>
+        <button>Continue</button>
     </section>
+    </main>
 </body>
 </html>
