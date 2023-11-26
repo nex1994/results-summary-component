@@ -23,15 +23,23 @@ body {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 10%;
     color: white;
+    box-shadow: 5px 5px 10px;
 }
 
 .summary {
     width: 30vw;
     height: 50vh;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px;
+
 }
 
-.flexScore {
-    display: flex;
+button {
+    border-radius:  17%;
+    background-color: hsl(252, 100%, 67%);
+    font-size: 2em;
+    border-style: none;
+    padding: 1vw;
 }
 
 .wheel {
@@ -43,8 +51,6 @@ body {
     text-align: center;
     display: grid;
     place-items: center;
-    
-
 }
 
 #boldResult {
@@ -58,4 +64,39 @@ font-size: 4em;
 
 .wheel p {
     margin-bottom: 4vw;
+}
+
+#summaryScore {
+    margin-left: auto;
+}
+
+.flexScore {
+    border-radius: 20%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 20%);
+
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 20%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 20%)
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 20%)    ;
+}
+
+.score {
+    margin: 10%;
+}
+
+.flexScore img {
+    margin: 0 10%;
 }
