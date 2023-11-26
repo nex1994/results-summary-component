@@ -10,41 +10,45 @@ body {
 
 .card {    
     display: flex;  
-    margin: 0 auto; 
+    margin: ; 
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .result {
-    width: 30vw;
-    height: 50vh;
-    text-align: center;
+    width: 23vw;
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 10%;
     color: white;
     box-shadow: 5px 5px 10px;
+    justify-content: space-around;
 }
 
 .summary {
-    width: 30vw;
-    height: 50vh;
+    width: 23vw;
+    height: 35vw;
     border-radius: 10%;
     box-shadow: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 button {
     border-radius:  17%;
     background-color: hsl(252, 100%, 67%);
-    font-size: 2em;
-    border-style: none;
-    padding: 1vw;
-}
+    font-size: 25px;
+    border-style: ;
+    margin: 0 auto;
+    }
 
 .wheel {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0));
     margin: auto;
@@ -94,9 +98,13 @@ font-size: 4em;
 }
 
 .score {
-    margin: 10%;
+    margin: 5%;
 }
 
 .flexScore img {
-    margin: 0 10%;
+    margin-left: 2%;
+}
+
+.result p {
+    display: inline-block;
 }
